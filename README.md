@@ -1,7 +1,7 @@
 # Python and IPython 
-## Notes and Experiments
 
-[IPython Tutorial](http://ipython.org/ipython-doc/stable/interactive/tutorial.html).
+This repo is just a record of my Python and IPython notes and experiments.
+
 
 # Configuration:
 
@@ -23,4 +23,10 @@ c.TerminalInteractiveShell.editor = '/usr/bin/subl'
 
 Note:  For the editor, I could not get this to work in qtconsole, so there I use !subl --> works fine!
 
+Here's a [link](http://nbviewer.ipython.org/github/CodeSolid/python-notes/blob/master/ipython/num_py_array.ipynb) to nbviewer, displaying one of my first IPython notebooks.
 
+
+
+## Helpful Links
+
+[IPython Tutorial](http://ipython.org/ipython-doc/stable/interactive/tutorial.html).
