@@ -30,3 +30,5 @@ Here's a [link](http://nbviewer.ipython.org/github/CodeSolid/python-notes/blob/m
 ## Helpful Links
 
 [IPython Tutorial](http://ipython.org/ipython-doc/stable/interactive/tutorial.html).
+
+[Pandas API Documentation](http://pandas.pydata.org/pandas-docs/dev/api.html).
