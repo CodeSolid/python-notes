@@ -1,0 +1,3 @@
+Download connector from here:
+
+http://dev.mysql.com/downloads/connector/python/

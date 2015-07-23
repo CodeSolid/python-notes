@@ -953,3 +953,395 @@ get_ipython().magic(u'time (np.sort(np.random.rand(100000)))')
 quit()
 
 quit()
+
+get_ipython().system('cat ../ipython/log_all.py')
+get_ipython().system('cat ../ipython/log_all.py')
+exit()
+
+get_ipython().system('cat ../ipython/log_all.py')
+exit()
+
+import script1
+
+from imp import reload
+reload(script1)
+reload(script1.py)
+from imp import reload
+import script1
+reload(script1)
+reload(script1)
+import platform from sys
+from sys import platform
+platform
+from string import ascii_lowercase
+ascii_lowercase
+ascii
+ascii()
+ascii('aaa')
+get_ipython().magic('load_ext')
+get_ipython().magic('load_ext autoreload')
+import script1
+get_ipython().magic('edit script1.py')
+import script1
+import script1
+reload script1
+reload(script1)
+reload(script1)
+exit()
+
+from do_shrubbery import do_shrubbery
+from do_shrubbery import do_shrubbery;
+from do_shrubbery import shrub
+from do_shrubbery import shrub
+from do_shrubbery import shrub
+shrub()
+spam()
+from do_shrubbery import shrub
+shrub
+get_ipython().show_usage()
+get_ipython().system('ls -F --color ')
+dir()
+from do_shrubbery import spam
+spam()
+from imp import reload
+reload(do_shrubbery)
+import do_shrubbery
+do_shrubbery.title
+reload(do_shrubbery)
+do_shrubbery.title
+do_shrubbery.title
+from do_shrubbery import title as z
+z
+a = (1,2)
+append(a, 9)
+list(a)
+list(a).append(3)
+a
+tuple(list(a).append(3))
+x = list(a).append(3)
+x
+x = list(a)
+x.append(3)
+x
+tuple(x)
+exit()
+
+2 ** 500
+1 / 0
+throw('foo')
+raise('foo')
+raise(new Exception('foo'))
+raise( Exception('foo'))
+raise(Exception('foo'))
+e = Exception('Shubbery!')
+e
+raise(e)
+import script1
+import do_shrubbery
+do_shrubbery.raise_exception()
+l = [1,2]
+get_ipython().system('ls -F --color ')
+l
+l.append(l)
+l
+type(2)
+2.add(2)
+2.bit_length
+2.bit_length()
+type(2)
+x = 2
+x.bit_length()
+x =1
+x.bit_length()
+x = 5
+x.bit_length()
+x = 2 ** 500
+x
+x.bit_length()
+x = 2 ** 99
+x.bit_length()
+l
+l[2]
+l[2][2]
+l[2][2][2]
+l
+l = 1
+x = (1,2)
+list(x)
+y = list(x)
+y.append(3)
+y
+tuple(y)
+r = {'food':'spam','taste':'yum'}
+type(r)
+r.food
+r['food']
+r['taste']
+list(r)
+list(r.values)
+list(r.values())
+list(r.keys())
+letters
+from string import ascii_lowercase as letters
+set(letters)
+s = set(letters)
+s
+'y' in letters
+'y' contains letters
+x = 1
+type(x)
+x = 2.2
+type(x)
+3.1415 * 2
+import math
+math.pi
+import random
+random.choice(range(1,100))
+random.choice(range(1,100))
+random.choice(range(1,100))
+s = 'Spam'
+len(s)
+s[1:3]
+s[1:]
+s[0:3]
+s[:3]
+s + ' and shrubbery are the foundation'
+s
+s[0] = 'a
+s[0] = 'a'
+s[0] = 'z'
+s = 'z' + s[1:]
+s
+s = 'spam'
+shrub = 'shrubbery'
+shrub
+l = list(shrub)
+l
+l[1] = 'c'
+''.join(l)
+scrub = ''.join(l)
+scrub
+zip(l)
+l
+x = zip(l, l)
+l
+x
+x = list(zip(l, l))
+x
+line = 'aaa,bbb,cccccc,d'
+line.split(',')
+type(line)
+dir(line)
+help upper
+:help
+s
+s + 'NI!'
+s.__add__('NI!')
+help(s.replace)
+help(s.find)
+
+'{:>30}'.format('right')
+'{:>20}'.format('right')
+
+
+
+d = {"foo":"bar"}
+d
+d.key()
+d.keys()
+list(d.keys())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+list(d.keys())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'%s' % 'foo'
+'%s' % 'foo'
+
+
+
+
+
+
+
+import packagetest/somefunc
+import packagetest.somefunc
+import packagetest.somefunc
+somefunc.message()
+import packagetest.somefunc.message as message
+import packagetest.somefunc.message as message
+from  packagetest.somefunc.message import message as message
+from  packagetest.somefunc import message as message
+messag()
+message()
+import packagetest.somefunc
+somefunc.message()
+packagetest.somefunc.message()
+from packagetest import somefunc
+somefunc.message
+somefunc.message()
+{"foo":"bar"}
+x = {"foo":"bar"}
+x
+type(x)
+x['boo'] = 'rebar'
+x
+list(x)
+tuple(x)
+x
+x.items()
+type(x.items())
+list(x.items())
+y = list(x.items)
+y = list(x.items())
+y
+y[0]
+type(y[0])
+type(y[0][0])
+y[0]
+y[0][1]
+y[0][0], y[0][1]
+y[0][0], y[0][1] == y[0]
+(y[0][0], y[0][1]) == y[0]
+(y[0][0], y[0][1])
+y[0]
+(y[0][0], y[0][1]) == y[0]
+while True:
+    pass
+
+class MyEmptyClass:
+    pass
+
+a = MyEmptyClass()
+type(a)
+def fib(n):
+    a,b = 0,1
+    print(a)
+    a, b = b, a+b
+    
+fib(10)
+def fib(n):
+    a,b = 0,1
+    print(a, b - b, a + b)
+    
+fib(10)
+fib(20)
+def fib(n):
+    while (a < n):
+        print(a, a, b=b, a+b)
+        
+it
+
+import fib
+import fib
+
+import fib
+fib(20)
+fib.fib(20)
+fib.fib(2000)
+fib.fib(20000)
+fib.fib(5000)
+fib.fib(10000)
+exit()
+
+import fib
+get_ipython().magic('pinfo fib.fib')
+help(fib.fib)
+help(fib.fib)
+from imp import reload
+reload(fib)
+fib(10)
+fib.fib(10
+)
+reload(fib)
+exit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import fib
+fib(2000)
+fib.fib(2000)
+fib.fib(2000)[-1]
+import math
+
+import math
+import fib
+fib.fib(2000)[-1]
+fib.fib(2000)
+fib.fib(200000)[1]
+fib.fib(200000)[-1]
+fib.fib(200000)[-5:-1]
+fib.fib(2000000)[-5:-1]
+51429 + 31781
+514229 + 317811
+exit()
+
+
+
